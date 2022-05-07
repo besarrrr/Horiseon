@@ -1,6 +1,6 @@
-# Challenge 1- UT Austin Coding Bootcamp
+# Horiseon Project
 
-The challenege is set to replicate a common front-end developer task where junior developers take existing code and refactor it to either meet a certain set of standards or implement a new technology.The specific task in this challenge is to take existing code used by Horiseon Marketing Agency and make it more accesible. Accessibility is important and has increasingly become an important consideration for business. The aim is to make webpages accesible for people with disabilities, ensure that people with socio-economic restrictions have access, and optimized code for search engines.
+The specific task is to take existing code used by Horiseon Marketing Agency and make it more accesible. Accessibility is important and has increasingly become an important consideration for business. The aim is to make the webpage moore accesible for people with disabilities, ensure that people with socio-economic restrictions have access, and optimized code for search engines by urefactoring the HTML and CSS.
 
 ## Acceptance Criteria
 
@@ -16,7 +16,7 @@ THEN I find that they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
-## Webpage
+## Deployed Site
 
 https://besarrrr.github.io/Horiseon/Develop/index.html
 
@@ -33,13 +33,13 @@ https://besarrrr.github.io/Horiseon/Develop/index.html
 
 ## What, Why, How
 
-What:
+### What:
 The goal of this assignment was to provide a real life example of refactoring code.
 
-Why:
+### Why:
 I was motivated to apply the concepts learned in class and through the modules.The HTML and CSS basics learning in week 1 were put to the test because this provided a setting in which I had to critically think to solve problems within the code, meet accessibility standards, and to leave the code better and easier to read than how I found it. 
 
 I also beleive it is important to get as much real life experience as possible. I approached this challenge as I would any work assignment, not as a homework assignement.
 
-How:
+### How:
 To complete this challenged I relied on a few different sources of informaton. I used exmaple code from module 1 assignment Run-buddy, my notes from class, and the deep dive links in module 1. This provided a framework from which I worked from and used to meet the acceptance criteria of the challenge. 
