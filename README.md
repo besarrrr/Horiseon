@@ -1,6 +1,6 @@
 # Horiseon Project
 
-The specific task is to take existing code used by Horiseon Marketing Agency and make it more accesible. Accessibility is important and has increasingly become an important consideration for business. The aim is to make the webpage moore accesible for people with disabilities, ensure that people with socio-economic restrictions have access, and optimized code for search engines by urefactoring the HTML and CSS.
+The task is to take existing code used by Horiseon Marketing Agency and make it more accessible. Accessibility is important and has increasingly become an important consideration for businesses. This is because when a web page is accessible it ensures that all potential users, including people with disabilities, are provided with a good user experience and that everyone is able to easily access all necessary information.  Thus, the specific aim is to make the webpage more accessible for people with disabilities, ensure that people with socio-economic restrictions have equitable access, and optimize code for search engines by refactoring the HTML and CSS. Additionally, when working with the existing code I will also clean up and leave the code better than I found it and fix any errors that may exist. 
 
 ## Acceptance Criteria
 
@@ -20,26 +20,23 @@ THEN I find a concise, descriptive title
 
 https://besarrrr.github.io/Horiseon/Develop/index.html
 
-
 ##  Work Done
 
-* Refacotered HTMl doc to have semantic html elements instead of Div elements and included clear labeled areas such as : "<!-- hero/jumbotron -->"
+* Refactored the HTML doc to have semantic HTML elements instead of Div elements. This helps the organization of the code and makes it easier to read and understand. Additionally, added clearly labeled areas such as: : "<!-- hero/jumbotron -->"
 
-* Included an Alt tag to all images to meet accessibility standards.
+* Included an Alt tag to all images to meet accessibility standards. For example instead of <img src="./assets/images/search-engine-optimization.jpg" class="float-left" /> . It looks like this: <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="computer and notebook with search engine words" /> The reason for this is because if a blind person is on the webpage they would still know what is being shown in the pictures. 
 
-* Ensured all links in the webpage led to the correct location.
+* Ensured all links in the webpage led to the correct location. Originally when opening the web page the “Search Engine Optimization” link in the header did not work. When clicked an user would just stay in the same spot instead of being moved down to that section of the site. When looking at the HTML, I noticed that the article element that contained that search engine optimization content was missing an ID. I added the ID as: id="search-engine-optimization" so that the href reference <a href="#search-engine-optimization">Search Engine Optimization</a> would then work. Without the ID the href was not sending users anywhere because it had nowhere to send them. 
 
-* Ordered CCS code to match the flow of the coresponding HTML code.
+* Ordered CSS code to match the flow of the corresponding HTML code. To do this I had the HTML and CSS code side by side and made sure they both flowed the same. Also added clearly labeled areas, similar to the HTML doc, such as: /* Section Content Styles */
 
 ## What, Why, How
 
 ### What:
-The goal of this assignment was to provide a real life example of refactoring code.
+The goal was to refactor the existing code and leave it better than when I got it.
 
 ### Why:
-I was motivated to apply the concepts learned in class and through the modules.The HTML and CSS basics learning in week 1 were put to the test because this provided a setting in which I had to critically think to solve problems within the code, meet accessibility standards, and to leave the code better and easier to read than how I found it. 
-
-I also beleive it is important to get as much real life experience as possible. I approached this challenge as I would any work assignment, not as a homework assignement.
+I was motivated to apply the  HTML and CSS concepts that I have learned thus far in a setting in which I could critically think to solve problems within the code, meet accessibility standards, and to leave the code better and easier to read than how I found it. 
 
 ### How:
-To complete this challenged I relied on a few different sources of informaton. I used exmaple code from module 1 assignment Run-buddy, my notes from class, and the deep dive links in module 1. This provided a framework from which I worked from and used to meet the acceptance criteria of the challenge. 
+To complete this task II relied on a few different sources of information. I used example code from a similar project called: Run-Buddy to compare and contrast, notes from my UT Austin Coding Bootcamp classes, and coding web pages online that hold a wealth of information about HTML and CSS. Combined this provided a framework from which I could work from and could find answers to any areas that may have caused some difficulties. 
